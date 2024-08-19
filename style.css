@@ -55,6 +55,11 @@ button {
     padding: 5%;
 }
 
+.header_mainTitle {
+    font-family:  sans-serif;
+    font-weight: 200;
+    
+}
 .box_one {
     border-radius: 5%;
     border: solid 1px #580438;
