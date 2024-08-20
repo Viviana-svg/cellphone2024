@@ -1,3 +1,7 @@
+html {
+    font-family: sans-serif;
+}
+
 * {
     box-sizing: border-box;
     margin: 0px;
@@ -25,7 +29,7 @@ body {
     justify-content: center;
     align-items: center;
     background-color: #F9ABA9;
-    width: 20vw;
+    width: 19vw;
     height: 80vh;
     border-radius: 2%;
     border: solid 12px #28404E;
@@ -40,11 +44,16 @@ body {
 button {
     background: transparent;
     border: none;
+    color: #403131;
+    font-size: 70%;
 }
 
 #weekly {
     background-color: #8DCBCA;
     color: white;
+    width: 4vw;
+    height: 5vh;
+    border-radius: 20px;
 }
 
 .main {
@@ -56,10 +65,13 @@ button {
 }
 
 .header_mainTitle {
-    font-family:  sans-serif;
-    font-weight: 200;
-    
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: rgb(14, 14, 14);
+    margin-left: 5%;
+    margin-top: 5%;
 }
+
 .box_one {
     border-radius: 5%;
     border: solid 1px #580438;
